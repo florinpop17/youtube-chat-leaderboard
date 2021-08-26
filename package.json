@@ -1,0 +1,20 @@
+{
+    "name": "chat-leaderboard",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "database": "json-server client/db.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "json-server": "^0.16.3",
+        "lowdb": "^2.1.0",
+        "puppeteer": "^10.0.0"
+    }
+}

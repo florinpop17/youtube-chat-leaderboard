@@ -1,6 +1,6 @@
 {
     "name": "chat-leaderboard",
-    "version": "1.0.0",
+    "version": "0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -9,8 +9,8 @@
         "database": "json-server client/db.json"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "Florin Pop",
+    "license": "MIT",
     "dependencies": {
         "axios": "^0.21.1",
         "json-server": "^0.16.3",

@@ -10,7 +10,7 @@ const earlyGang = {
 };
 
 const lateGang = {
-    isOpen: false,
+    isOpen: true,
     check: "#lategang",
     users: [],
 };
@@ -32,7 +32,6 @@ const youTubeChatURL = `https://youtube.com/live_chat?v=${videoURL}`;
 
     await page.setViewport({ width: 800, height: 800 });
     await page.goto(youTubeChatURL, { waitUntil: "networkidle2" });
-    await page.screenshot({ path: "purpleIsHot.png" });
 
     // initial run
     await getAllMessages(page);

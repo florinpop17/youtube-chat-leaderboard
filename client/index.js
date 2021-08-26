@@ -5,7 +5,7 @@ const users = {};
 getUsers();
 
 async function getUsers() {
-    const res = await fetch("/client/db.json");
+    const res = await fetch("client/db.json");
     const data = await res.json();
 
     const { messages } = data;

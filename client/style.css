@@ -46,6 +46,7 @@ h1 {
 .item .image-wrapper {
     position: relative;
     margin: 0 10px;
+    height: 36px;
 }
 
 .item .crown {

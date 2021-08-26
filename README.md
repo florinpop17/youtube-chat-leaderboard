@@ -1,13 +1,18 @@
+## YouTube Chat Leaderboard
+
+This is a project I built during a series of streams. This will take the messages from the chat and check them based on some keywords and attribute points to the most active people in chat.
+
+See the leaderboard live: https://youtube-leaderboard.netlify.app/
+
 ## ToDos
 
 [x] Get messages (and data) from the page
-[ ] Continue to get messages every minute OR detect when new element is added (#fluke gets 4 points today!)
 [x] Save the data somewhere
-[ ] Play with the data
+[x] Play with the data
 
 ## Future todos
 
-[ ] Check how to bypass the headless issue of Browser not being the newer version (check by using your own Brave)
+[x] Check how to bypass the headless issue of Browser not being the newer version (check by using your own Brave)
 
 ## User/App flow
 

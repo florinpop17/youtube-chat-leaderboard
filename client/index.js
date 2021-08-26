@@ -8,8 +8,6 @@ const dbPath =
 
 getUsers();
 
-console.log();
-
 async function getUsers() {
     const res = await fetch(dbPath);
     const data = await res.json();

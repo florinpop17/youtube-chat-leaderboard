@@ -2,10 +2,16 @@ const leaderboard = document.getElementById("leaderboard");
 
 const users = {};
 
+const localhost = "127.0.0.1";
+const dbPath =
+    window.location.hostname === localhost ? "/client/db.json" : "/db.json";
+
 getUsers();
 
+console.log();
+
 async function getUsers() {
-    const res = await fetch("client/db.json");
+    const res = await fetch(dbPath);
     const data = await res.json();
 
     const { messages } = data;

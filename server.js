@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 const axios = require("axios");
 
-const videoURL = "fKMZTR7X5Uk";
+const videoURL = "6HbqfbsnTBg";
 
 const earlyGang = {
     isOpen: false,
@@ -10,14 +10,14 @@ const earlyGang = {
 };
 
 const lateGang = {
-    isOpen: true,
+    isOpen: false,
     check: "#lategang",
     users: [],
 };
 
 const secretKey = {
     isOpen: false,
-    check: "#superfan",
+    check: "#giveaway2",
     users: [],
 };
 

@@ -14,17 +14,15 @@ async function getUsers() {
 
     const { messages } = data;
 
-    console.log(messages);
-
     // create userProfile
     messages.forEach((message) => {
-        const { image, name } = message;
+        const { color, name } = message;
         if (users[name]) {
             users[name].points++;
         } else {
             users[name] = {
                 name,
-                image,
+                color,
                 points: 1,
             };
         }
@@ -47,7 +45,9 @@ function createLeaderboard() {
         userEl.innerHTML = `
             <span>${idx + 1}.</span>
             <div class="image-wrapper">
-                <image src="${user.image}" alt="${user.name}"/>
+                <div class="round" style="background: ${user.color}">${user.name
+            .slice(0, 2)
+            .toUpperCase()}</div>
                 ${addCrown(idx)}
             </div>
             <p>${user.name} <span>${user.points} point${

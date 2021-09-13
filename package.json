@@ -15,6 +15,7 @@
         "axios": "^0.21.1",
         "json-server": "^0.16.3",
         "lowdb": "^2.1.0",
-        "puppeteer": "^10.0.0"
+        "puppeteer": "^10.0.0",
+        "tmi.js": "^1.8.5"
     }
 }

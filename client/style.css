@@ -64,3 +64,13 @@ h1 {
     padding-right: 5px;
     flex: 1;
 }
+
+.item .round {
+    background: #b667d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}

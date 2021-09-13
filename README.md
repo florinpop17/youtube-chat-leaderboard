@@ -1,8 +1,8 @@
-## YouTube Chat Leaderboard
+## Chat Leaderboard
 
 This is a project I built during a series of streams. This will take the messages from the chat and check them based on some keywords and attribute points to the most active people in chat.
 
-See the leaderboard live: https://youtube-leaderboard.netlify.app/
+See the leaderboard live: https://viewers-leaderboard.netlify.app/
 
 ## ToDos
 

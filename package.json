@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "node server.js",
+        "start": "npm run database && node twitch.js",
         "dev": "nodemon server.js",
         "database": "json-server client/db.json"
     },

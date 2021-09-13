@@ -95,6 +95,408 @@
       "message": "#twitch",
       "color": "#00FF7F",
       "id": 16
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#coolstorming",
+      "color": null,
+      "id": 17
+    },
+    {
+      "name": "IgorLourenxo",
+      "message": "#coolstorming",
+      "color": "#FF69B4",
+      "id": 18
+    },
+    {
+      "name": "Flolightc",
+      "message": "#coolstorming",
+      "color": null,
+      "id": 19
+    },
+    {
+      "name": "r_duku",
+      "message": "#coolstorming",
+      "color": "#1E90FF",
+      "id": 20
+    },
+    {
+      "name": "512M8",
+      "message": "#coolstorming",
+      "color": "#00FF7F",
+      "id": 21
+    },
+    {
+      "name": "earl_george",
+      "message": "#coolstorming",
+      "color": "#0000FF",
+      "id": 22
+    },
+    {
+      "name": "JE_Virtual1",
+      "message": "#coolstorming",
+      "color": "#752276",
+      "id": 23
+    },
+    {
+      "name": "Rayeful_",
+      "message": "#coolstorming",
+      "color": "#1E90FF",
+      "id": 24
+    },
+    {
+      "name": "XSALEHX001",
+      "message": "#coolstorming",
+      "color": "#00FF7F",
+      "id": 25
+    },
+    {
+      "name": "RcDarman",
+      "message": "#coolstorming",
+      "color": "#008000",
+      "id": 26
+    },
+    {
+      "name": "saltyburito",
+      "message": "#coolstorming",
+      "color": "#B22222",
+      "id": 27
+    },
+    {
+      "name": "saltyburito",
+      "message": "#popopoints",
+      "color": "#B22222",
+      "id": 28
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#popopoints",
+      "color": null,
+      "id": 29
+    },
+    {
+      "name": "XSALEHX001",
+      "message": "#popopoints",
+      "color": "#00FF7F",
+      "id": 30
+    },
+    {
+      "name": "r_duku",
+      "message": "#popopoints",
+      "color": "#1E90FF",
+      "id": 31
+    },
+    {
+      "name": "512M8",
+      "message": "#popopoints",
+      "color": "#00FF7F",
+      "id": 32
+    },
+    {
+      "name": "JE_Virtual1",
+      "message": "#popopoints",
+      "color": "#752276",
+      "id": 33
+    },
+    {
+      "name": "earl_george",
+      "message": "#popopoints",
+      "color": "#0000FF",
+      "id": 34
+    },
+    {
+      "name": "pbertrand_dev",
+      "message": "#roxkstar74",
+      "color": "#FF69B4",
+      "id": 35
+    },
+    {
+      "name": "Roxkstar74",
+      "message": "#roxkstar74",
+      "color": "#B22222",
+      "id": 36
+    },
+    {
+      "name": "maNothing",
+      "message": "#roxkstar74",
+      "color": null,
+      "id": 37
+    },
+    {
+      "name": "opti_21",
+      "message": "#roxkstar74",
+      "color": "#00E4FF",
+      "id": 38
+    },
+    {
+      "name": "Delvoid",
+      "message": "#roxkstar74",
+      "color": "#655E3F",
+      "id": 39
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#roxkstar74",
+      "color": null,
+      "id": 40
+    },
+    {
+      "name": "cadrion",
+      "message": "#roxkstar74",
+      "color": "#8A2BE2",
+      "id": 41
+    },
+    {
+      "name": "devantecodes",
+      "message": "#roxkstar74",
+      "color": null,
+      "id": 42
+    },
+    {
+      "name": "512M8",
+      "message": "#roxkstar74",
+      "color": "#00FF7F",
+      "id": 43
+    },
+    {
+      "name": "DrBJD",
+      "message": "#roxkstar74",
+      "color": "#FF0000",
+      "id": 44
+    },
+    {
+      "name": "Flolightc",
+      "message": "#roxkstar74",
+      "color": null,
+      "id": 45
+    },
+    {
+      "name": "Markerwing",
+      "message": "#roxkstar74",
+      "color": null,
+      "id": 46
+    },
+    {
+      "name": "Skididdy93",
+      "message": "#roxkstar74",
+      "color": "#00FF7F",
+      "id": 47
+    },
+    {
+      "name": "KlassyKat",
+      "message": "#roxkstar74",
+      "color": "#FDA300",
+      "id": 48
+    },
+    {
+      "name": "XSALEHX001",
+      "message": "#roxkstar74",
+      "color": "#00FF7F",
+      "id": 49
+    },
+    {
+      "name": "Rayeful_",
+      "message": "#roxkstar74",
+      "color": "#1E90FF",
+      "id": 50
+    },
+    {
+      "name": "ravenstuff",
+      "message": "#roxkstar74",
+      "color": null,
+      "id": 51
+    },
+    {
+      "name": "Fawmaw",
+      "message": "#roxkstar74",
+      "color": "#FFDD33",
+      "id": 52
+    },
+    {
+      "name": "JE_Virtual1",
+      "message": "#roxkstar74",
+      "color": "#752276",
+      "id": 53
+    },
+    {
+      "name": "DrBJD",
+      "message": "#freepoint",
+      "color": "#FF0000",
+      "id": 54
+    },
+    {
+      "name": "pbertrand_dev",
+      "message": "#freepoint",
+      "color": "#FF69B4",
+      "id": 55
+    },
+    {
+      "name": "Roxkstar74",
+      "message": "#freepoint",
+      "color": "#B22222",
+      "id": 56
+    },
+    {
+      "name": "maNothing",
+      "message": "#freepoint",
+      "color": null,
+      "id": 57
+    },
+    {
+      "name": "devantecodes",
+      "message": "#freepoint",
+      "color": null,
+      "id": 58
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#freepoint",
+      "color": null,
+      "id": 59
+    },
+    {
+      "name": "512M8",
+      "message": "#freepoint",
+      "color": "#00FF7F",
+      "id": 60
+    },
+    {
+      "name": "Markerwing",
+      "message": "#freepoint",
+      "color": null,
+      "id": 61
+    },
+    {
+      "name": "snazzy72",
+      "message": "#freepoint",
+      "color": "#FF0000",
+      "id": 62
+    },
+    {
+      "name": "JE_Virtual1",
+      "message": "#freepoint",
+      "color": "#752276",
+      "id": 63
+    },
+    {
+      "name": "opti_21",
+      "message": "#freepoint",
+      "color": "#00E4FF",
+      "id": 64
+    },
+    {
+      "name": "cadrion",
+      "message": "#freepoint",
+      "color": "#8A2BE2",
+      "id": 65
+    },
+    {
+      "name": "Flolightc",
+      "message": "#freepoint",
+      "color": null,
+      "id": 66
+    },
+    {
+      "name": "KlassyKat",
+      "message": "#freepoint",
+      "color": "#FDA300",
+      "id": 67
+    },
+    {
+      "name": "ravenstuff",
+      "message": "#freepoint",
+      "color": null,
+      "id": 68
+    },
+    {
+      "name": "XSALEHX001",
+      "message": "#freepoint",
+      "color": "#00FF7F",
+      "id": 69
+    },
+    {
+      "name": "mbk987",
+      "message": "#freepoint",
+      "color": "#008000",
+      "id": 70
+    },
+    {
+      "name": "Rayeful_",
+      "message": "#freepoint",
+      "color": "#1E90FF",
+      "id": 71
+    },
+    {
+      "name": "JE_Virtual1",
+      "message": "#lategang",
+      "color": "#752276",
+      "id": 72
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#lategang again",
+      "color": null,
+      "id": 73
+    },
+    {
+      "name": "DrBJD",
+      "message": "#lategang",
+      "color": "#FF0000",
+      "id": 74
+    },
+    {
+      "name": "snazzy72",
+      "message": "#lategang",
+      "color": "#FF0000",
+      "id": 75
+    },
+    {
+      "name": "qlooooo",
+      "message": "#lategang",
+      "color": null,
+      "id": 76
+    },
+    {
+      "name": "AayushBiswas",
+      "message": "#lategang",
+      "color": "#008000",
+      "id": 77
+    },
+    {
+      "name": "Fawmaw",
+      "message": "#lategang",
+      "color": "#FFDD33",
+      "id": 78
+    },
+    {
+      "name": "pgeorgiev",
+      "message": "#lategang",
+      "color": "#1E90FF",
+      "id": 79
+    },
+    {
+      "name": "easytwitchsniper",
+      "message": "#lategang",
+      "color": "#8A2BE2",
+      "id": 80
+    },
+    {
+      "name": "devantecodes",
+      "message": "#lategang",
+      "color": null,
+      "id": 81
+    },
+    {
+      "name": "512M8",
+      "message": "#lategang",
+      "color": "#00FF7F",
+      "id": 82
+    },
+    {
+      "name": "saltyburito",
+      "message": "#lategang",
+      "color": "#B22222",
+      "id": 83
     }
   ]
 }

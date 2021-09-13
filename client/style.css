@@ -9,11 +9,23 @@ body {
     justify-content: center;
     margin: 0;
     min-height: 100vh;
+    color: white;
 }
 
 h1 {
-    color: white;
     font-weight: 500;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+p {
+    margin: 0.5rem 0 2rem;
+    text-align: center;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
 }
 
 .leaderboard {
@@ -29,7 +41,7 @@ h1 {
 }
 
 .item {
-    padding: 5px 0;
+    padding: 0.75rem 0;
     display: flex;
     align-items: center;
     border-bottom: 1px solid white;
@@ -62,6 +74,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding-right: 5px;
+    margin: auto;
     flex: 1;
 }
 

@@ -21,7 +21,7 @@ const lateGang = {
 
 const secretKey = {
     isOpen: false,
-    check: "#freepoint",
+    check: "#toobad",
     users: [],
 };
 

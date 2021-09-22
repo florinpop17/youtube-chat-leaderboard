@@ -14,14 +14,14 @@ const earlyGang = {
 };
 
 const lateGang = {
-    isOpen: true,
+    isOpen: false,
     check: "#lategang",
     users: [],
 };
 
 const secretKey = {
     isOpen: false,
-    check: "#toobad",
+    check: "#purpleunicorn",
     users: [],
 };
 

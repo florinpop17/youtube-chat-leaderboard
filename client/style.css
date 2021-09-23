@@ -47,6 +47,10 @@ a {
     border-bottom: 1px solid white;
 }
 
+.item.header-item span {
+    margin: 0 5px;
+}
+
 .item:last-child {
     border-bottom: 0;
 }
@@ -72,10 +76,23 @@ a {
 
 .item p {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding-right: 5px;
     margin: auto;
     flex: 1;
+}
+
+.item p span:first-child {
+    margin-left: auto;
+}
+
+.item p span {
+    margin: 0 5px;
+    color: rgb(162, 114, 209);
+}
+
+.item p span.total {
+    color: white;
 }
 
 .item .round {

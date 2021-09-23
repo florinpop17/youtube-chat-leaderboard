@@ -1,3 +1,4 @@
+// this is bad code. no no code.
 const leaderboard = document.getElementById("leaderboard");
 
 const users = {};
@@ -16,14 +17,33 @@ async function getUsers() {
 
     // create userProfile
     messages.forEach((message) => {
-        const { color, name } = message;
+        const { color, name, message: text } = message;
+
+        let eg = false;
+        let lg = false;
+        let rg = false;
+
+        if (text.toLowerCase().includes("#earlygang")) {
+            eg = true;
+        } else if (text.toLowerCase().includes("#lategang")) {
+            lg = true;
+        } else {
+            rg = true;
+        }
+
         if (users[name]) {
             users[name].points++;
+            users[name].earlyGangPoints += +eg;
+            users[name].lateGangPoints += +lg;
+            users[name].randomGangPoints += +rg;
         } else {
             users[name] = {
                 name,
                 color,
                 points: 1,
+                earlyGangPoints: +eg,
+                lateGangPoints: +lg,
+                randomGangPoints: +rg,
             };
         }
     });
@@ -50,9 +70,11 @@ function createLeaderboard() {
             .toUpperCase()}</div>
                 ${addCrown(idx)}
             </div>
-            <p>${user.name} <span>${user.points} point${
-            user.points < 2 ? "" : "s"
-        }</span></p>
+            <p>${user.name} 
+            <span>${user.earlyGangPoints}p</span>    
+            <span>${user.lateGangPoints}p</span>  
+            <span>${user.randomGangPoints}p</span>  
+            <span class="total">${user.points}p</p>
         `;
         userEl.classList.add("item");
         leaderboard.appendChild(userEl);

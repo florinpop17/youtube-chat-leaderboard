@@ -1535,6 +1535,276 @@
       "message": "#lategang",
       "color": null,
       "id": 256
+    },
+    {
+      "name": "jordansayner",
+      "message": "#earlygang",
+      "color": "#FF4500",
+      "id": 257
+    },
+    {
+      "name": "webstercodes",
+      "message": "#earlygang",
+      "color": null,
+      "id": 258
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#earlygang",
+      "color": null,
+      "id": 259
+    },
+    {
+      "name": "512M8",
+      "message": "#earlygang",
+      "color": "#00FF7F",
+      "id": 260
+    },
+    {
+      "name": "varunpotti",
+      "message": "#earlygang",
+      "color": null,
+      "id": 261
+    },
+    {
+      "name": "mihaiandrei15",
+      "message": "#earlygang",
+      "color": "#8A2BE2",
+      "id": 262
+    },
+    {
+      "name": "AayushBiswas",
+      "message": "H#earlygang",
+      "color": "#8A2BE2",
+      "id": 263
+    },
+    {
+      "name": "Rayeful_",
+      "message": "Hey, Florin and chat ! #earlygang",
+      "color": "#1E90FF",
+      "id": 264
+    },
+    {
+      "name": "mciasco",
+      "message": "#earlygang",
+      "color": "#1E90FF",
+      "id": 265
+    },
+    {
+      "name": "codepression",
+      "message": "#earlygang",
+      "color": "#DAA520",
+      "id": 266
+    },
+    {
+      "name": "inikolov",
+      "message": "#earlygang",
+      "color": "#FF0000",
+      "id": 267
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#newpointssystem that filip suggested",
+      "color": null,
+      "id": 268
+    },
+    {
+      "name": "512M8",
+      "message": "#newpointssystem",
+      "color": "#00FF7F",
+      "id": 269
+    },
+    {
+      "name": "mihaiandrei15",
+      "message": "#newpointssystem",
+      "color": "#8A2BE2",
+      "id": 270
+    },
+    {
+      "name": "michaeldbrooks",
+      "message": "#newpointssystem",
+      "color": null,
+      "id": 271
+    },
+    {
+      "name": "codepression",
+      "message": "#newpointssystem",
+      "color": "#DAA520",
+      "id": 272
+    },
+    {
+      "name": "mciasco",
+      "message": "#NEWPointsSYSTEM",
+      "color": "#1E90FF",
+      "id": 273
+    },
+    {
+      "name": "Rayeful_",
+      "message": "#newpointssystem",
+      "color": "#1E90FF",
+      "id": 274
+    },
+    {
+      "name": "bartoszkolo",
+      "message": "#newpointssystem",
+      "color": null,
+      "id": 275
+    },
+    {
+      "name": "inikolov",
+      "message": "#newpointssystem Kappa",
+      "color": "#FF0000",
+      "id": 276
+    },
+    {
+      "name": "muttah_",
+      "message": "#newpointssystem",
+      "color": "#0000FF",
+      "id": 277
+    },
+    {
+      "name": "512M8",
+      "message": "#randompointz",
+      "color": "#00FF7F",
+      "id": 278
+    },
+    {
+      "name": "Skididdy93",
+      "message": "#randompointz",
+      "color": "#00FF7F",
+      "id": 279
+    },
+    {
+      "name": "Rayeful_",
+      "message": "#randompointz",
+      "color": "#1E90FF",
+      "id": 280
+    },
+    {
+      "name": "mihaiandrei15",
+      "message": "#randompointz",
+      "color": "#8A2BE2",
+      "id": 281
+    },
+    {
+      "name": "muttah_",
+      "message": "#randompointz",
+      "color": "#0000FF",
+      "id": 282
+    },
+    {
+      "name": "ClaudiaWu_",
+      "message": "#randompointz",
+      "color": "#8A2BE2",
+      "id": 283
+    },
+    {
+      "name": "inikolov",
+      "message": "#randompointz",
+      "color": "#FF0000",
+      "id": 284
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#randompointz",
+      "color": null,
+      "id": 285
+    },
+    {
+      "name": "jordansayner",
+      "message": "#randompointz",
+      "color": "#FF4500",
+      "id": 286
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#lategang  <3",
+      "color": null,
+      "id": 287
+    },
+    {
+      "name": "mihaiandrei15",
+      "message": "#lategang",
+      "color": "#8A2BE2",
+      "id": 288
+    },
+    {
+      "name": "bartoszkolo",
+      "message": "#lategang",
+      "color": null,
+      "id": 289
+    },
+    {
+      "name": "jordansayner",
+      "message": "#lategang",
+      "color": "#FF4500",
+      "id": 290
+    },
+    {
+      "name": "Flolightc",
+      "message": "#lategang",
+      "color": null,
+      "id": 291
+    },
+    {
+      "name": "512M8",
+      "message": "#lAtEGang",
+      "color": "#00FF7F",
+      "id": 292
+    },
+    {
+      "name": "Rayeful_",
+      "message": "#lategang",
+      "color": "#1E90FF",
+      "id": 293
+    },
+    {
+      "name": "michaeldbrooks",
+      "message": "#lategang",
+      "color": null,
+      "id": 294
+    },
+    {
+      "name": "marcusmichaels",
+      "message": "#whatever",
+      "color": null,
+      "id": 295
+    },
+    {
+      "name": "mihaiandrei15",
+      "message": "#filip",
+      "color": "#8A2BE2",
+      "id": 296
+    },
+    {
+      "name": "jordansayner",
+      "message": "#",
+      "color": "#FF4500",
+      "id": 297
+    },
+    {
+      "name": "512M8",
+      "message": "#waaaaattteeeeegvveerr",
+      "color": "#00FF7F",
+      "id": 298
+    },
+    {
+      "name": "FilipacRO",
+      "message": "#greatStreamAsAlways",
+      "color": null,
+      "id": 299
+    },
+    {
+      "name": "Flolightc",
+      "message": "#",
+      "color": null,
+      "id": 300
+    },
+    {
+      "name": "bartoszkolo",
+      "message": "#himom",
+      "color": null,
+      "id": 301
     }
   ]
 }

@@ -21,7 +21,7 @@ const lateGang = {
 
 const secretKey = {
     isOpen: false,
-    check: "#tweetskeepmealive",
+    check: "#lastcall",
     users: [],
 };
 

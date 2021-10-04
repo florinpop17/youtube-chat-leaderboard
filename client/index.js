@@ -3,21 +3,33 @@ const leaderboard = document.getElementById("leaderboard");
 
 const users = {};
 
-const localhost = "127.0.0.1";
-const dbPath =
-    window.location.hostname === localhost ? "/client/db.json" : "/db.json";
+const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 getUsers();
 
-async function getUsers() {
-    const res = await fetch(dbPath);
-    const data = await res.json();
+const winners = [];
+let allMessages;
 
-    const { messages } = data;
+async function getPoints() {
+    const { data, error } = await db.from("points").select("*");
+
+    if (error) {
+        console.log(error);
+    }
+
+    console.log(data);
+
+    return data;
+}
+
+async function getUsers() {
+    const messages = await getPoints();
+
+    allMessages = [...messages];
 
     // create userProfile
     messages.forEach((message) => {
-        const { color, name, message: text } = message;
+        const { color, username, message: text } = message;
 
         let eg = false;
         let lg = false;
@@ -31,14 +43,14 @@ async function getUsers() {
             rg = true;
         }
 
-        if (users[name]) {
-            users[name].points++;
-            users[name].earlyGangPoints += +eg;
-            users[name].lateGangPoints += +lg;
-            users[name].randomGangPoints += +rg;
+        if (users[username]) {
+            users[username].points++;
+            users[username].earlyGangPoints += +eg;
+            users[username].lateGangPoints += +lg;
+            users[username].randomGangPoints += +rg;
         } else {
-            users[name] = {
-                name,
+            users[username] = {
+                username,
                 color,
                 points: 1,
                 earlyGangPoints: +eg,
@@ -65,12 +77,12 @@ function createLeaderboard() {
         userEl.innerHTML = `
             <span>${idx + 1}.</span>
             <div class="image-wrapper">
-                <div class="round" style="background: ${user.color}">${user.name
-            .slice(0, 2)
-            .toUpperCase()}</div>
+                <div class="round" style="background: ${
+                    user.color
+                }">${user.username.slice(0, 2).toUpperCase()}</div>
                 ${addCrown(idx)}
             </div>
-            <p>${user.name} 
+            <p>${user.username} 
             <span>${user.earlyGangPoints}p</span>    
             <span>${user.lateGangPoints}p</span>  
             <span>${user.randomGangPoints}p</span>  
@@ -100,3 +112,16 @@ function crown(color) {
     <path d="M12 6l4 6l5 -4l-2 10h-14l-2 -10l5 4z" />
     </svg>`;
 }
+
+// function selectWinner() {
+//     let winner =
+//         allMessages[Math.floor(Math.random() * allMessages.length)].name;
+
+//     while (winners.includes(winner)) {
+//         winner =
+//             allMessages[Math.floor(Math.random() * allMessages.length)].name;
+//     }
+
+//     console.log(winner);
+//     winners.push(winner);
+// }

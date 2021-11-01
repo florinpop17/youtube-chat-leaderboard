@@ -1,14 +1,20 @@
 // this is bad code. no no code.
-const leaderboard = document.getElementById("leaderboard");
+const root = document.getElementById("root");
 
-const users = {};
+const winners = [];
+let users;
+let allMessages;
 
 const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 getUsers();
 
-const winners = [];
-let allMessages;
+db.from("points")
+    .on("INSERT", (payload) => {
+        getUsers();
+        console.log("inserted");
+    })
+    .subscribe();
 
 async function getPoints() {
     const { data, error } = await db.from("points").select("*");
@@ -17,12 +23,13 @@ async function getPoints() {
         console.log(error);
     }
 
-    console.log(data);
-
     return data;
 }
 
 async function getUsers() {
+    // cleanup the users object
+    users = {};
+
     const messages = await getPoints();
 
     allMessages = [...messages];
@@ -64,6 +71,9 @@ async function getUsers() {
 }
 
 function createLeaderboard() {
+    // reset the root
+    root.innerHTML = "";
+
     // find a better way to do sorting
     const arr = [];
     for (const user in users) {
@@ -89,7 +99,7 @@ function createLeaderboard() {
             <span class="total">${user.points}p</p>
         `;
         userEl.classList.add("item");
-        leaderboard.appendChild(userEl);
+        root.appendChild(userEl);
     });
 }
 
@@ -113,15 +123,16 @@ function crown(color) {
     </svg>`;
 }
 
-// function selectWinner() {
-//     let winner =
-//         allMessages[Math.floor(Math.random() * allMessages.length)].name;
+function selectWinner() {
+    let winner =
+        allMessages[Math.floor(Math.random() * allMessages.length)].username;
 
-//     while (winners.includes(winner)) {
-//         winner =
-//             allMessages[Math.floor(Math.random() * allMessages.length)].name;
-//     }
+    while (winners.includes(winner)) {
+        winner =
+            allMessages[Math.floor(Math.random() * allMessages.length)]
+                .username;
+    }
 
-//     console.log(winner);
-//     winners.push(winner);
-// }
+    console.log(winner);
+    winners.push(winner);
+}
